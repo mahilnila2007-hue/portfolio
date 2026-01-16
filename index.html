@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio.</a>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <!-- Floating Background Shapes -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>MAHIL RAM E K</h1>
+                <p>A Passionate <span class="highlight">Web Developer & AI Enthusiast</span></p>
+                <p class="hero-description">I create AI-driven demos, actively enthusiastic about event managing and hosting, and innovative IoT solutions. Secretary of IEEE, Office Bearer of IETE, and problem solver.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+                </div>
+            </div>
+            <!-- Placeholder for Hero Image -->
+            <!-- <div class="hero-img">
+                <img src="https://via.placeholder.com/400" alt="Profile Picture">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Mahil Ram E K, a B.E. student (2024-2028) at M. Kumarasamy College of Engineering, Karur. I have a strong passion for <strong>Artificial Intelligence</strong> and <strong>Web Development</strong>.</p>
+                    <p>As the <strong>Secretary of the IEEE club</strong> and an office bearer for IETE, I actively organize events and workshops. I have participated in over 8-10 hackathons and won the <em>HackYourCampus</em> hackathon. My expertise lies in merging technology with creative solutions, from IoT systems to AI-powered apps.</p>
+                    <p style="margin-top: 15px;"><strong>Languages:</strong> Tamil, English, Hindi, Malayalam, German</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React & JS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI & ML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-wifi"></i>
+                    <h3>IoT Systems</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5 / CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-microphone-alt"></i>
+                    <h3>Public Speaking</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Leadership</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="img-placeholder"><i class="fas fa-hospital-symbol fa-3x"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kalpana MedCare (HMS)</h3>
+                        <p>Hospital Management System identifying patient and staff modules. Designed to streamline healthcare operations.</p>
+                        <div class="project-links">
+                            <span class="btn-small">Web App</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="img-placeholder"><i class="fas fa-brain fa-3x"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Quiz Generator</h3>
+                        <p>AI-powered Quiz Generator App for mobile and web using dynamic AI models to test knowledge engagedly.</p>
+                        <div class="project-links">
+                            <span class="btn-small">AI / Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="img-placeholder"><i class="fas fa-tint fa-3x"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>IoT Sprinkler System</h3>
+                        <p>Engineered an Automatic IoT Sprinkler System using Machine Learning for real-time irrigation automation.</p>
+                        <div class="project-links">
+                            <span class="btn-small">IoT / ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Tree Depth Calculator -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="img-placeholder"><i class="fas fa-network-wired fa-3x"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tree Depth Calculator</h3>
+                        <p>A tool demonstrating a strong grasp of data structures and algorithms to calculate tree depth efficiently.</p>
+                        <div class="project-links">
+                            <span class="btn-small">DSA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: CO2-to-O2 Converter -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="img-placeholder"><i class="fas fa-leaf fa-3x"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CO₂-to-O₂ Converter</h3>
+                        <p>Proposed for Smart India Hackathon, merging software and environmental tech for sustainable solutions.</p>
+                        <div class="project-links">
+                            <span class="btn-small">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: HackYourCampus Win -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="img-placeholder"><i class="fas fa-trophy fa-3x"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HackYourCampus Project</h3>
+                        <p>Winning project at HackYourCampus hackathon, showcasing innovative problem-solving and teamwork.</p>
+                        <div class="project-links">
+                            <span class="btn-small">Hackathon Winner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section about">
+        <div class="container">
+            <h2 class="section-title">My Interests</h2>
+            <div class="skills-grid">
+                 <div class="skill-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Public Speaking</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Hackathons & AI</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Robotics</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>Eco Innovation</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-wrapper">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mahil-ram?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mahilnila2007-hue" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/stuart_mahil?igsh=MW1iNDk4emZjN2Z2MA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2026 MAHIL RAM E K. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
